@@ -10,7 +10,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Date: "
+            android:text="@string/date"
             android:id="@+id/tvDateText"
             android:layout_column="1"
             android:textColor="@color/green"
@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="0"
+            android:text="@string/zero"
             android:id="@+id/tvDateValue"
             android:layout_column="2"
             android:textColor="@color/green"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Temperature: "
+            android:text="@string/temperature"
             android:id="@+id/tvTempText"
             android:layout_column="1" />
 
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="0"
+            android:text="@string/zero"
             android:id="@+id/tvTempValue"
             android:layout_column="2" />
     </TableRow>
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Humidity: "
+            android:text="@string/humidity"
             android:id="@+id/tvHumidityText"
             android:layout_column="1" />
 
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="0"
+            android:text="@string/zero"
             android:id="@+id/tvHumidityValue"
             android:layout_column="2" />
     </TableRow>
@@ -79,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Pressure: "
+            android:text="@string/pressure"
             android:id="@+id/tvPressureText"
             android:layout_column="1" />
 
@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="0"
+            android:text="@string/zero"
             android:id="@+id/tvPressureValue"
             android:layout_column="2" />
     </TableRow>
@@ -100,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Sky: "
+            android:text="@string/sky"
             android:id="@+id/tvCloudsText"
             android:layout_column="1" />
 
@@ -108,7 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="0"
+            android:text="@string/zero"
             android:id="@+id/tvCloudsValue"
             android:layout_column="2" />
     </TableRow>

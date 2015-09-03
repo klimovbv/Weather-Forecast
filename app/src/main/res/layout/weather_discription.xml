@@ -19,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3 days"
+        android:text="@string/three_days"
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
@@ -28,7 +28,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="7 days"
+        android:text="@string/seven_days"
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"

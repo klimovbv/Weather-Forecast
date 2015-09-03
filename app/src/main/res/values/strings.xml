@@ -4,6 +4,14 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="add_city">Add city</string>
+    <string name="three_days">3 days</string>
+    <string name="seven_days">7 days</string>
+    <string name="temperature">Temperature:</string>
+    <string name="date">Date:</string>
+    <string name="zero">0</string>
+    <string name="humidity">Humidity:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="sky">Sky:</string>
     <color name="green">#33691E</color>
     <color name="orange">#FFF8E1</color>
 </resources>
