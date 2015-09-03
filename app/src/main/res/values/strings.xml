@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_city">Add city</string>
+    <color name="green">#33691E</color>
+    <color name="orange">#FFF8E1</color>
+</resources>

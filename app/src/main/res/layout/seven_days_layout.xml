@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear_layout">
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.bogdan.weatherapp.WeatherFragment"
+                android:id="@+id/fragment7_1"
+                tools:layout="@layout/weather_fragment"/>
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.bogdan.weatherapp.WeatherFragment"
+                android:id="@+id/fragment7_2"
+                tools:layout="@layout/weather_fragment"/>
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.bogdan.weatherapp.WeatherFragment"
+                android:id="@+id/fragment7_3"
+                tools:layout="@layout/weather_fragment"/>
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.bogdan.weatherapp.WeatherFragment"
+                android:id="@+id/fragment7_4"
+                tools:layout="@layout/weather_fragment"/>
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.bogdan.weatherapp.WeatherFragment"
+                android:id="@+id/fragment7_5"
+                tools:layout="@layout/weather_fragment"/>
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.bogdan.weatherapp.WeatherFragment"
+                android:id="@+id/fragment7_6"
+                tools:layout="@layout/weather_fragment"/>
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.bogdan.weatherapp.WeatherFragment"
+                android:id="@+id/fragment7_7"
+                tools:layout="@layout/weather_fragment"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
